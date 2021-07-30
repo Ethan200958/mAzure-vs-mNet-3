@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <title>
+           Image Recognition Comparison 
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <center>
+            <div class="container">
+
+                <div class="col-sm-6 col-xs-12 div1">
+                    <p>1. Test Image:<img src="RUBIKS CUBE.jpg" id="rubiks_cube"></p>
+                    <p>Output on <b>Microsoft Azure</b>-A hand holding a toy.</p>
+                    <p>Output on <b>Mobilenet Model</b>-An electrical switch.</p>
+                    <div id="divInADiv1">
+                        <h3 style="color:greenyellow;">Result:</h3>
+                        <hr>
+                        <h3><b style="color:lightgreen;">Microsoft Azure got it right! (Microsoft Azure wins 1/3)</b></h3>
+                    </div>
+                </div>             
+<br><br>   
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+
+<div class="col-sm-6 col-xs-12 div1">
+    <p>2. Test Image:<img src="grass.jpg" id="grass"></p>
+    <p>Output on <b>Microsoft Azure</b>-A field of grass.</p>
+    <p>Output on <b>Mobilenet Model</b>-A Virginia fence.</p>
+    <div id="divInADiv1">
+        <h3 style="color:greenyellow;">Result:</h3>
+        <hr>
+        <h3><b style="color:lightgreen;">Microsoft Azure got it right! (Microsoft Azure wins 2/3)</b></h3>
+    </div>
+</div>            
+<br><br>
+<br><br>
+
+
+<div class="col-sm-6 col-xs-12 div1">
+    <p>3. Test Image:<img src="pileofrocks.jpg" id="pileofrocks"></p>
+    <p>Output on <b>Microsoft Azure</b>-Food on a table.</p>
+    <p>Output on <b>Mobilenet Model</b>-A teddy bear</p>
+    <div id="divInADiv1">
+        <h3 style="color:greenyellow;">Result:</h3>
+        <hr>
+        <h3><b style="color:darkred;">Neither got it right :(. It was a pile of rocks.</b></h3>
+      
+    </div>
+    <p><b style="color:red">From this test we can conclude that Microsoft Azure is clearly more accurate than Mobilenet since Mobilenet got none right and Microsoft Azure got 2/3 correct</b></p>
+</div>            
+
+        </center>
+    </body>
+</html>
